@@ -1,0 +1,26 @@
+{
+  "name": "04-buffers",
+  "version": "1.0.0",
+  "description": "USing buffers and bit manipulation",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/.js",
+    "test": "jest --coverage --verbose",
+    "test-watch": "jest --watchAll --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkgallaway/04-buffers.git"
+  },
+  "author": "Ryan Gallaway",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^5.6.1",
+    "jest": "^23.6.0",
+    "node": "^11.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/rkgallaway/04-buffers/issues"
+  },
+  "homepage": "https://github.com/rkgallaway/04-buffers#readme"
+}

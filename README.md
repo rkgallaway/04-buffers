@@ -1,15 +1,17 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB
+![CF](http://i.imgur.com/7v5ASc8.png) LAB 04
 =================================================
 
-## Project Name
+## Lab 04 - buffers
 
-### Author: Student/Group Name
+### Author: Ryan Gallaway
 
 ### Links and Resources
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+
+[![Build Status](https://www.travis-ci.com/rkgallaway/04-buffers.svg?branch=master)](https://www.travis-ci.com/rkgallaway/04-buffers)
+
+* [repo](https://github.com/rkgallaway/04-buffers)
+* [travis](https://www.travis-ci.com/rkgallaway/04-buffers)
+* [heroku](https://lab-04-buffers.herokuapp.com)
 
 ### Modules
 #### `modulename.js`
@@ -23,8 +25,7 @@ Usage Notes or examples
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - port described in ENV
 
 #### Running the app
 * `npm start`
@@ -34,7 +35,8 @@ Usage Notes or examples
   * Returns a JSON object with xyz in it.
 
 #### Tests
-* How do you run tests?
+eslint, jest and node
+
 * What assertions were made?
 * What assertions need to be / should be made?
 
