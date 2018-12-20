@@ -9,7 +9,12 @@
 ## Resources  
 * [Buffer Docs](https://nodejs.org/api/buffer.html)
 
-## Assignment 1: Create an `<article>`
+## Assignment 1: Code that writes code ...
+* Using only buffers and bit manipulation, generate a file in the `files` folder called `loop.js` that initiates an array with 3 people's names, iterates them with a forEach loop, and console.log's each value.
+* You may not use `Buffer.from()` other than to create a new, empty buffer
+* Verify your work by running `node loop.js` from within the `files` folder and seeing the array items printed out.
+
+## Assignment 2: Create an `<article>`
 * Using only buffers and bit manipulation, read the file `pair-programming.txt` from the `files` folder and make the following transformations:
   * Wrap all of the content within `<article>` tags
   * Wrap each section title in an `<h2>`
@@ -18,12 +23,6 @@
 * You may not use .toString()
 * Save the file as `pair-programming.html`
 * Verify your work by rendering it in a browser
-
-## Assignment 2: Code that writes code ...
-* Using only buffers and bit manipulation, generate a file in the `files` folder called `loop.js` that initiates an array with 3 people's names, iterates them with a forEach loop, and console.log's each value.
-* You may not use `Buffer.from()` other than to create a new, empty buffer
-* Verify your work by running `node loop.js` from within the `files` folder and seeing the array items printed out.
-
 
 ## Testing 
 * Test your units (assuming you break down the challenges into small, focused functions.
