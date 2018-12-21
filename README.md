@@ -17,6 +17,12 @@
 #### `modulename.js`
 ##### Exported Values and Methods
 
+### Collaborated with:
+Brent Woodward
+Becca Lee
+Heather Cherewaty
+Siobhan Niess
+
 ###### `foo(thing) -> string`
 Usage Notes or examples
 
