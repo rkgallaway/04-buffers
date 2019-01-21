@@ -23,11 +23,20 @@ Becca Lee
 Heather Cherewaty
 Siobhan Niess
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+## Assignment 1: Code that writes code ...
+* Using only buffers and bit manipulation, generate a file in the `files` folder called `loop.js` that initiates an array with 3 people's names, iterates them with a forEach loop, and console.log's each value.
+* You may not use `Buffer.from()` other than to create a new, empty buffer
+* Verify your work by running `node loop.js` from within the `files` folder and seeing the array items printed out.
 
-###### `bar(array) -> array`
-Usage Notes or examples
+## Assignment 2: Create an `<article>`
+* Using only buffers and bit manipulation, read the file `pair-programming.txt` from the `files` folder and make the following transformations:
+  * Wrap all of the content within `<article>` tags
+  * Wrap each section title in an `<h2>`
+  * Convert each sentence in each paragraph into a list item.
+  * Convert each of the numbered sections in the bottom of the document to `<h3>` tags.
+* You may not use .toString()
+* Save the file as `pair-programming.html`
+* Verify your work by rendering it in a browser
 
 ### Setup
 #### `.env` requirements
@@ -35,16 +44,12 @@ Usage Notes or examples
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* In terminal: `node index.js` to create loop.js
+* In terminal: `node ./files/create-html.js` to create pair-programming.html
+
 
 #### Tests
-eslint, jest and node
+* node test
+<!-- * What assertions were made?
+* What assertions need to be / should be made? -->
 
-* What assertions were made?
-* What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
